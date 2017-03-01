@@ -1,0 +1,13 @@
+== Mongoals - Simple MongDB migration library for Java & Groovy
+
+[[img-build-status]]
+image::https://travis-ci.org/eyforia/mongoals.svg?branch=master[Build Status, link="https://travis-ci.org/eyforia/mongoals"]
+
+License: https://www.apache.org/licenses/LICENSE-2.0[Apache v2]
+
+=== Usage:
+TBD
+
+Download: http://repo.maven.apache.org/maven2/org/mongoals/
+
+Project Page: http://mongoals.org
