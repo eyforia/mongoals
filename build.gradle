@@ -10,6 +10,7 @@ description = '''Mongoals is simple non-opinionated MongoDB migration tool for G
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
 
+def springVersion = '3.2.9.RELEASE'
 def isDevBuild
 def isCiBuild
 def isReleaseBuild
@@ -34,6 +35,11 @@ repositories {
 
 dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.4.7'
+    compile "org.springframework:spring-core:$springVersion"
+    compile "org.springframework:spring-context:$springVersion"
+    compile "org.springframework.data:spring-data-mongodb:1.9.5.RELEASE"
+    compile "org.slf4j:slf4j-api:1.7.21"
+    compile "commons-io:commons-io:2.4"
     testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
 }
 
